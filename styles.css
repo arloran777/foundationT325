@@ -2,6 +2,7 @@ body {
     background-color: hsl(265, 96%, 91%);
     color: darkblue;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 h1 {
     color: white;
@@ -34,5 +35,10 @@ h1 {
 }
 .shop-nav a:hover {
     background-color: #ffe3b3;
+    color: #4a3d28;
+}
+.user-nav a {
+    font-size: 32pt;
+    text-decoration: none;
     color: #4a3d28;
 }
