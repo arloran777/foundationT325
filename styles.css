@@ -13,3 +13,26 @@ h1 {
 .logo {
     max-width: 100px;
 }
+.main-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8c17d;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shop-nav {
+    min-width: 100%;
+    background-color:#4a3d28;
+    display: flex;
+    flex-direction: row;
+}
+.shop-nav a {
+    color: #ffe3b3;
+    text-decoration: none;
+    padding: 10px;
+}
+.shop-nav a:hover {
+    background-color: #ffe3b3;
+    color: #4a3d28;
+}
