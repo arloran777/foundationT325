@@ -3,6 +3,7 @@ body {
     color: darkblue;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    overflow-y: scroll;
 }
 h1 {
     color: white;
@@ -75,6 +76,19 @@ h1 {
 }
 .slide:nth-child(2) {
     background-color: aquamarine;
+}
+.slide h2 {
+    color: white;
+    font-size: 6em;
+    text-shadow: 0px 0px 1px black;
+    margin: 12pt auto;
+}
+.slide-button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12pt;
+    border-radius: 8pt;
 }
 @media screen and (max-width:480px) {
     .shop-nav {
