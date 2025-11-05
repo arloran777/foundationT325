@@ -103,6 +103,63 @@ h1 {
 }
 .card {
     flex: 1;
+    min-width: 300px;
+    background-color: #eeeeee;
+    border: 1px solid black;
+    border-radius: 6pt;
+    overflow: hidden;
+}
+.card-content {
+    padding: 12pt;
+}
+.card-button {
+    text-decoration: none;
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    padding: 6pt;
+    text-align: center;
+    border-radius: 6pt;
+    color: black;
+}
+.banner {
+    width: 100%;
+    background: linear-gradient( to right, purple,pink);
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12pt;
+}
+.social a {
+    text-decoration: none;
+    font-size: 18pt;
+    color: black;
+}
+.main-footer {
+    min-height: 20vh;
+    background-color: #eeeeee;
+    padding: 12pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16pt;
+}
+.footer-nav a {
+    color: black;
+    text-decoration: none;
 }
 @media screen and (max-width:480px) {
     .shop-nav {
