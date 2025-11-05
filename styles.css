@@ -90,6 +90,20 @@ h1 {
     padding: 12pt;
     border-radius: 8pt;
 }
+.content {
+   margin: 3em auto;
+   max-width: 80vw;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 12pt;
+}
+.card img {
+    max-width: 100%;
+}
+.card {
+    flex: 1;
+}
 @media screen and (max-width:480px) {
     .shop-nav {
         flex-direction: column;
