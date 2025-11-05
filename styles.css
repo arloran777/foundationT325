@@ -57,6 +57,15 @@ h1 {
     flex: 1;
     padding: 10px;
 }
+.slide {
+    background-color: #e8c17d;
+    min-height: 50vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (max-width:480px) {
     .shop-nav {
