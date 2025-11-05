@@ -65,8 +65,17 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-
+.slide:nth-child(1) {
+    background-image: url("/images/slides/pexels-rethaferguson-3621960.jpg");
+    background-color: pink;
+}
+.slide:nth-child(2) {
+    background-color: aquamarine;
+}
 @media screen and (max-width:480px) {
     .shop-nav {
         flex-direction: column;
