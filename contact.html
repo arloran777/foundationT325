@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Progear Hub</title>
+    <title>Progear Hub Contact Us</title>
     <link rel="icon" href="icon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"
@@ -20,12 +20,12 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <a href="/">
-            <img class="logo" src="images/ProgrearHub_Logo-removebg-preview.png" alt="progear hub logo">
+            <img class="logo" src="images/ProgrearHub_Logo-removebg-preview.png">
         </a>
         <form class="search" method="get" action="/search.php">
             <input type="search" placeholder="search for a product">
             <button>
-                <img src="images/search_40dp_4A3D28_FILL0_wght400_GRAD0_opsz40.png" alt="search icon">
+                <img src="images/search_40dp_4A3D28_FILL0_wght400_GRAD0_opsz40.png">
             </button>
         </form>
         <nav class="user-nav">
@@ -54,7 +54,7 @@
         </nav>
     </header>
     <!-- carousel -->
-    <div class="main-carousel" data-flickity='{ "autoPlay": true, "cellAlign": "left", "contain": true }'>
+    <!-- <div class="main-carousel" data-flickity='{ "autoPlay": true, "cellAlign": "left", "contain": true }'>
         <div class="slide">
             <h2>Black Friday Sale</h2>
             <a href="#" class="slide-button">Shop Black Friday</a>
@@ -62,54 +62,23 @@
         <div class="slide">2</div>
         <div class="slide">3</div>
         <div class="slide">4</div>
-    </div>
+    </div> -->
     <main class="content">
         <div class="card">
-            <img src="/images/categories/womens.jpg" alt="a woman touching grass">
             <div class="card-content">
-                <h3>Womens</h3>
-                <a href="#" class="card-button">Shop Womens</a>
+                <form id="contact" method="post" action="/contact">
+                    <h1>Contact Us</h1>
+                    <label for="name">Name</label>
+                    <input required id="name" name="name" type="text" placeholder="Gemma Smith">
+                    <label for="email">Email</label>
+                    <input required id="email" name="email" type="email" placeholder="gemma@example.com">
+                    <label for="message">Message</label>
+                    <textarea required id="message" name="message" rows="5" cols="30" placeholder="Hello there"></textarea>
+                    <button type="submit" class="form-button">Send</button>
+                </form>
             </div>
         </div>
-         <div class="card">
-            <img src="/images/categories/mens.jpg" alt="a man doing push ups">
-            <div class="card-content">
-                <h3>Mens</h3>
-                <a href="#" class="card-button">Shop Mens</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/images/categories/kids.jpg" alt="a child running in a baseball game">
-            <div class="card-content">
-                <h3>Kids</h3>
-                <a href="#" class="card-button">Shop Kids</a>
-            </div>
-        </div>
-        <div class="banner">
-            <h2>Sale</h2>
-            <a class="slide-button" href="#">Shop Sale</a>
-        </div>
-        <div class="card">
-            <img src="/images/categories/womens.jpg" alt="a woman touching grass">
-            <div class="card-content">
-                <h3>Womens</h3>
-                <a href="#" class="card-button">Shop Womens</a>
-            </div>
-        </div>
-         <div class="card">
-            <img src="/images/categories/mens.jpg" alt="a man exercising">
-            <div class="card-content">
-                <h3>Mens</h3>
-                <a href="#" class="card-button">Shop Mens</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/images/categories/kids.jpg" alt="child playing baseball">
-            <div class="card-content">
-                <h3>Kids</h3>
-                <a href="#" class="card-button">Shop Kids</a>
-            </div>
-        </div>
+         
     </main>
     <footer class="main-footer">
         <nav class="social">

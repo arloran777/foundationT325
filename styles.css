@@ -170,6 +170,25 @@ body {
     color: black;
     text-decoration: none;
 }
+#contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+#contact input {
+    margin-bottom: 1em;
+    padding: 5px;
+}
+.form-button {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    align-self: center;
+    min-width: 200px;
+}
 
 /* responsive styles */
 @media screen and (max-width:480px) {
@@ -207,5 +226,11 @@ body {
     }
     .user-nav {
         margin-right: 0px;
+    }
+    .card {
+        min-width: 100%;
+    }
+    .content {
+        max-width: 90vw;
     }
 }
