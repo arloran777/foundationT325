@@ -112,7 +112,8 @@ body {
 }
 .card {
     flex: 1;
-    min-width: 360px;
+    min-width: 25vw;
+    
     background-color: #eeeeee;
     border: 1px solid black;
     border-radius: 6pt;
