@@ -22,7 +22,7 @@
                     person
                 </span>
             </a>
-            <a href="cart.html">
+            <a href="order.php">
                 <span class="material-symbols-outlined">
                     shopping_cart
                 </span>
